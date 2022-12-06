@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my_portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <script src="script.js"></script>
+     <script src="https://kit.fontawesome.com/eb3e656811.js" crossorigin="anonymous"></script>
+     
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            
+            <h1 class="logo">Portfo<span>lio.</span></h1>
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#portfolio">Work/Projects</a></li>
+                <li><a href="#more">More</a></li>
+                <li><a href="#contact">Contact</a></li>  
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i> 
+            </ul>
+            <i class="fa-solid fa-bars"  onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>FULL STACK DEVELOPER</p>
+            <h1>Hi,I'm <span>Ajith</span><br> <span>Kumar</span> From Tamilnadu</h1>
+        </div>
+    </div>
+</div>
+<!----------------------------------about------------------------------------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="userme.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p class="sub-title2">Passionate,dedicated and efficient Full stack developer certified by Guvi Zen Class.
+                    I have knowledge on both Front-end and Back-end using various applications like HTML,CSS,
+                    Bootstrap,JavaScript,React,Node,etc.I can provide clean code and perfect design.
+                Looking to further enhance my knowledge on the applications by gaining experience and
+                also learning to expand my knowledge on developings.</p>
+
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('Personal-Skills')">Personal Skills</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="Personal-Skills">
+                    <ul>
+                        <li>Project Management</li>
+                        <li>Strategic Planning</li>
+                        <li>Creative Designing</li>
+                        <li>People Skills</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>Present</span><br>Full Stack Developing at GUVI institute</li>
+                        <li><span>2018-2022</span><br>BE-Mechanical Eng in Hindusthan college of Engineering<br>and technology at Coimbatore</li>
+                        <li><span>2018</span><br>HSC from G.G.S.M.M Hr Sec School at Mayiladuthurai</li>
+                        <li><span>2016</span><br>SSLC from G.G.S.M.M Hr Sec School at Mayiladuthurai</li></li>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-------------------------------skills----------------------------------------->
+<div id="skills">
+    <h1 class="sub-title">SKILLS</h1>
+
+</div>
+<div class="container-skills">
+    <div class="skill-box">
+        <div class="skill-title">
+            <div class="img">
+                <img src="images/ht.png" class="skill-icon">
+            </div>
+            <h3>HTML 5</h3>
+        </div>
+    </div>
+    <div class="skill-box">
+        <div class="skill-title">
+            <div class="img">
+                <img src="images/css.png" class="skill-icon">
+            </div>
+            <h3>CSS 3</h3>
+        </div>
+    </div>
+    <div class="skill-box">
+        <div class="skill-title">
+            <div class="img">
+                <img src="images/js.png" class="skill-icon">
+            </div>
+            <h3>JAVA SCRIPT</h3>
+        </div>
+    </div>
+    <div class="skill-box">
+        <div class="skill-title">
+            <div class="img">
+                <img src="images/bs.png" class="skill-icon">
+            </div>
+            <h3>BOOTSTRAP</h3>
+        </div>
+    </div>
+    <div class="skill-box">
+        <div class="skill-title">
+            <div class="img">
+                <img src="images/node-js-logo.png" class="skill-icon">
+            </div>
+            <h3>NODE JS</h3>
+        </div>
+    </div>
+    <div class="skill-box">
+        <div class="skill-title">
+            <div class="img">
+                <img src="images/git.png" class="skill-icon">
+            </div>
+            <h3>GITHUB</h3>
+        </div>
+    </div>
+    <div class="skill-box">
+        <div class="skill-title">
+            <div class="img">
+                <img src="images/vs.png" class="skill-icon">
+            </div>
+            <h3>VS CODE</h3>
+        </div>
+    </div>
+    <div class="skill-box">
+        <div class="skill-title">
+            <div class="img">
+                <img src="images/sql.png" class="skill-icon">
+            </div>
+            <h3>MY SQL</h3>
+        </div>
+    </div>
+    <div class="skill-box">
+        <div class="skill-title">
+            <div class="img">
+                <img src="images/react.png" class="skill-icon">
+            </div>
+            <h3>REACT</h3>
+        </div>
+    </div>
+    <div class="skill-box">
+        <div class="skill-title">
+            <div class="img">
+                <img src="images/npm-log.png" class="skill-icon">
+            </div>
+            <h3>NPM</h3>
+        </div>
+    </div>
+    <div class="skill-box">
+        <div class="skill-title">
+            <div class="img">
+                <img src="images/netlify.png" class="skill-icon">
+            </div>
+            <h3>NETLIFY</h3>
+        </div>
+    </div>
+    <div class="skill-box">
+        <div class="skill-title">
+            <div class="img">
+                <img src="images/mongo.png" class="skill-icon">
+            </div>
+            <h3>MONGO DB</h3>
+        </div>
+    </div>
+    <div class="skill-box">
+        <div class="skill-title">
+            <div class="img">
+                <img src="images/ms.jpg" class="skill-icon">
+            </div>
+            <h3>MS OFFICE</h3>
+        </div>
+    </div>
+    <div class="skill-box">
+        <div class="skill-title">
+            <div class="img">
+                <img src="images/heroku-logo.png" class="skill-icon">
+            </div>
+            <h3>HEROKU</h3>
+        </div>
+    </div>
+    <div class="skill-box">
+        <div class="skill-title">
+            <div class="img">
+                <img src="images/ds.png" class="skill-icon">
+            </div>
+            <h3>DS & ALGOS</h3>
+        </div>
+    </div>
+    <div class="skill-box">
+        <div class="skill-title">
+            <div class="img">
+                <img src="images/aws.png" class="skill-icon">
+            </div>
+            <h3>AWS</h3>
+        </div>
+    </div>
+
+</div>
+<!----------------------------------------------PORTFOLIO/WORKS---------------------------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title-3">PROJECTS</h1>
+        <div class="work-list">
+            <div class="work">
+                 <img src="images/work-1.png">
+                 <div class="layer">
+                    <h3>Social Media Apps</h3>
+                    <p>This app connects with the people around the world.
+                    It looks like an facebook and it was named as manmedia.
+                    To know more about this click there.</p>
+                    <a href="#"><i class="fa-sharp fa-solid fa-up-right-from-square"></i></a>
+                 </div>
+            </div>
+            <div class="work">
+                <img src="images/work-13.png">
+                <div class="layer">
+                    <h3>Neumorphic Calculator</h3>
+                    <p>This was the basic calculator with
+                        the Neumorphic Effect.To know more about this
+                        click there.</p>
+                    <a href="#"><i class="fa-sharp fa-solid fa-up-right-from-square"></i></a>
+                 </div>
+           </div>
+           <div class="work">
+            <img src="images/work-7.png">
+            <img src="images/work-6.png">
+            <div class="layer">
+                <h3>Websites</h3>
+                <p>I was created more responsive websites with lot 
+                of animated screen demos.
+                To know more about this click there.</p>
+                <a href="#"><i class="fa-sharp fa-solid fa-up-right-from-square"></i></a>
+             </div>
+          </div>
+        </div>
+        <a href="https://github.com/Ajith-Kumar0408" class="btn">See More</a>
+    </div>
+
+</div>
+<!----------------------------------------MORE------------------------------------------------->
+<div id="more">
+    <h1 class="title-more">MORE</h1>
+        <div class="more-container">
+            <h2>Start <span>working</span> with us *</h2>
+            <h1>Hire me<i class="fa-regular fa-id-badge"></i></h1>
+            <p>______________________________________________</p> 
+            <div class="more-row">
+                <div class="para-1">
+                    <p>I'm a passionate <span>Full Stack developer</span> with unique developing<br>ideas
+                        and good knowledges about software tools.Now,actively<br>seeking opportunities,to
+                        give life to my ideas,create a <br>foundation for my career and keep developing knowledge.</p>
+                </div>
+                <div class="para-2">
+                    <h2>I build things for the <span>Web</span></h2>
+                    <p>Specializing in building <span>(and occassionaly designing)</span><br>ecxeptional digital UI experiences.</p>
+                </div>
+            </div>
+        </div>
+</div>
+<!-------------------------------------------contact------------------------------------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title-4">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> ajithak0093@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone-flip"></i> 6383190693</p>
+                <p><i class="fa-brands fa-square-whatsapp"></i>8300052874</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/profile.php?id=100014561048789"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://twitter.com/Ajithak0093"><i class="fa-brands fa-square-twitter"></i></a>
+                    <a href="https://www.instagram.com/mr_nitrotoxic/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/ajith-kumar-r-038667212/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="images/my-resume.pdf.pdf" download class="btn btn2">Download Resume</a>
+            </div>
+            <div class="contact-right">   
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name"  placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Ajith. Made with <i class="fa-solid fa-heart"></i> by Ajith kumar.</p>
+    </div>
+</div>
+
+<script src="script.js"></script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzdclLM-fpFbyRTcipTcfa_6jA_LCJ9PP6UN1pc_suQGP04arA3qvP2pGDfZWquOl4u/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message Sent Successfuly"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+</script>
+</body>
+</html>
