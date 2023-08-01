@@ -325,7 +325,7 @@ nav ul li a:hover::after{
     font-size: 50px;
 }
 .more-container{
-    width: 100%;
+    width: 50%;
     background-size: cover;
     background-position: center;
     margin-left: 0%;
@@ -334,15 +334,19 @@ nav ul li a:hover::after{
     border-radius: 10px;
     margin-top: 2%;
     color: white;
+    display: flex;
+
+   
 
 }
 
 
-.more-container h2{
-   font-size: 30px;
+.more-h2{
+   font-size: 35px;
    color: rgb(233, 230, 230);
+   margin-left: 50px;
 }
-.more-container h2 span{
+.more-h2 span{
     color: #06ecd5;
 }
 .more-container h1{
@@ -367,8 +371,13 @@ nav ul li a:hover::after{
 }
 
 .more-row{
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+}
+.card{
+    margin-left: 50px;
 }
 .para-1 p{
     font-size: 22px;
@@ -388,6 +397,18 @@ nav ul li a:hover::after{
     font-size: 20px;
 }
 
+.card-img-top{
+    width: 100%;
+    height: 40vh;
+    border-radius: 0px;
+}
+.more-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+}
+
 /*-------------------------------------contact------------------*/
 
 .sub-title-4{
@@ -397,7 +418,7 @@ nav ul li a:hover::after{
 }
 .contact-left p{
     color: #fff;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 .contact-left{
     flex-basis: 35%;
@@ -515,8 +536,9 @@ nav .fa-solid{
     .contact-left,.contact-right{
         flex-basis: 100%;
     }
-    .more-container,.more-container h1,.fa-regular{
+    .more-container,.more-container h1,.fa-regular,.card-img-top{
         font-size: 30px;
+        flex-basis: 100%;
     }
     .more-container p{
         font-size: 15px;
