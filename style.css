@@ -410,6 +410,9 @@ nav ul li a:hover::after{
 }
 
 /*-------------------------------------contact------------------*/
+#contact{
+    padding: 80px 0;
+}
 
 .sub-title-4{
     font-family: sans-serif;
