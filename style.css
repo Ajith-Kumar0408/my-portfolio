@@ -412,6 +412,7 @@ nav ul li a:hover::after{
 /*-------------------------------------contact------------------*/
 #contact{
     padding: 80px 0;
+    margin-top: 5px;
 }
 
 .sub-title-4{
